@@ -1,0 +1,17 @@
+apiVersion: serving.knative.dev/v1
+   kind: Service
+   metadata:
+     name: knative-nodejs
+     namespace: default
+   spec:
+    source:
+      git:
+        url: https://github.com/astraube/knative-nodejs.git
+        revision: master
+     template:
+       spec:
+         containers:
+           - image: docker.io/straucorp/knative-nodejs
+             env:
+               - name: TARGET
+                 value: "Node.js Sample v1"

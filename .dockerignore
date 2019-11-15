@@ -1,0 +1,13 @@
+Dockerfile
+README.md
+node_modules
+npm-debug.log
+node_modules
+npm-debug.log*
+coverage
+.nyc_output
+.env
+.idea/
+logs/
+.vscode
+.vscode/*

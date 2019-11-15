@@ -1,0 +1,15 @@
+{
+  "name": "knative-nodejs",
+  "version": "1.0.0",
+  "description": "Projeto Exemplo para knative e nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Straube",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

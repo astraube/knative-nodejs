@@ -1,0 +1,10 @@
+npm-debug.log*
+package-lock.json
+coverage
+.nyc_output
+node_modules/
+.idea/
+logs/
+.vscode
+.vscode/*
+.env
